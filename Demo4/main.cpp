@@ -1,4 +1,4 @@
-#include "Demo5.h"
+#include "Demo4.h"
 #include <QtWidgets/QApplication>
 #include <gl/freeglut.h>
 void RenderScenceCB() {
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
 	//return a.exec();
 	//QApplication a(argc, argv);
-	Demo5 w;
+	Demo4 w;
 	w.show();
 	return a.exec();
 }
